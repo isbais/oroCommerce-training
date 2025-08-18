@@ -59,3 +59,60 @@ El uso de web catalog ofrece mayor flexibilidad para:
 
 - El **master catalog** es la base completa de todos los productos.
 - El **web catalog** es la capa flexible que permite mostrar, segmentar y personalizar las vistas del catálogo para diferentes audiencias, ya sean **B2B** o **B2C**.
+
+---
+
+## Creación y asignación de un nuevo Web Catalog
+
+Considerando el caso de uso de una tienda médica en EE.UU. que vende productos a distintas empresas a nivel nacional, crearemos un nuevo web catalog, lo asignaremos como predeterminado y añadiremos content variants relevantes a cada content node.
+
+### Crear un Web Catalog
+
+1. Navega a **Marketing > Web Catalogs** en el menú principal.
+2. Haz clic en **Create Web Catalog**.
+
+![Creating Web Catalog](https://hive.oroinc.com/wp-content/uploads/sites/21/2021/02/creating_web_catalog-1024x365.png)
+
+3. Asigna un nombre significativo y una descripción para diferenciarlo de otros web catalogs (ya que puedes tener múltiples).
+4. Haz clic en **Save and Close** en la parte superior derecha.
+
+En este punto, tu nuevo **basic web catalog** queda creado.
+
+---
+
+### Asignar un Web Catalog como Default
+
+El siguiente paso es asignar este catálogo como el **default catalog** del storefront.
+
+⚠️ **Nota**: Si no se asigna ningún web catalog, se utiliza el master catalog para definir el menú del storefront.
+
+#### Pasos:
+
+1. Navega a **System > Configuration** en el menú principal.
+2. Selecciona **System Configuration > Websites > Routing** en el panel izquierdo.
+3. En el campo **Web Catalog**, selecciona el nuevo catálogo en el dropdown (en este ejemplo, Medical Products).
+4. Haz clic en **Save Settings**.
+
+![Set Web Catalog as Default](https://hive.oroinc.com/wp-content/uploads/sites/21/2021/02/set_web_catalog_as_default-1-1024x434.png)
+
+---
+
+### Visualizar el Web Catalog en el Storefront
+
+Ahora, navega al OroCommerce storefront y recarga la página para ver el web catalog recién creado.
+
+Lo que verás es una **home landing page en blanco**, sin contenido ni categorías de producto, excepto los ítems del menú **About** y **Contact Us**.
+
+Estos elementos representan un **static custom storefront menu** (commerce_main_menu), que no forma parte ni del master catalog ni del web catalog, y que puede moverse a otra sección del storefront.
+
+![Blank Storefront Page](https://hive.oroinc.com/wp-content/uploads/sites/21/2021/02/blank_storefront_page-1-1024x343.png)
+
+---
+
+## 📌 Conclusión:
+
+- Has creado un **web catalog básico**.
+- Lo asignaste como **default** para tu storefront.
+- Comprobaste su aparición inicial, listo para ser enriquecido con contenido, categorías y productos.
+
+
