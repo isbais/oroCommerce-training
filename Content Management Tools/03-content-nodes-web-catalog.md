@@ -351,5 +351,49 @@ Para completar el **content tree** de **Deals & Promotions**, procede con agrega
 
 ![Navigation Root](https://hive.oroinc.com/wp-content/uploads/sites/21/2021/02/Navigation_root-1-1024x404.png)
 
-Finalmente, hemos completado el **content tree** que inicialmente visualizamos para nuestra tienda, con todos los niveles de primer, segundo y sub-menús más profundos. 
+Finalmente, hemos completado el **content tree** que inicialmente visualizamos para nuestra tienda, con todos los niveles de primer, segundo y sub-menús más profundos.
 
+---
+
+## Web Catalogs en una Aplicación Multi-Org
+
+La **edición Enterprise** de OroCommerce te permite crear y gestionar múltiples **organizations** dentro de tu aplicación. Cada **organization** en una aplicación **multi-org** de Oro es un espacio en blanco con un **inventory**, **catalogs**, **products**, y las opciones de configuración de la **organization** que pueden o no heredar de la **system configuration**.
+
+### Características principales:
+
+- **Organizaciones independientes**: Cada organización tiene su propio inventario, catálogos y productos
+- **Web catalogs únicos**: Los web catalogs y products no se replican de una organization a otra
+- **Gestión centralizada**: Solo la **global organization** puede gestionar web catalogs y products de diferentes organizations
+
+### La Global Organization
+
+La única **organization** que puede gestionar **web catalogs** y **products** de diferentes organizations en el **back-office** se llama **global**. Los **users** en la **global organization**, siempre que tengan niveles de acceso **Global** en su rol, pueden acceder y controlar todos los datos del sistema en todas las **organizations** dentro de una instancia de la aplicación.
+
+![Multiple Organizations](https://hive.oroinc.com/wp-content/uploads/sites/21/2021/02/multiple_organizations.png)
+
+### Navegación entre Organizaciones
+
+Si tienes acceso a más de una **organization**, puedes alternar entre ellas usando el **selector** en la parte superior izquierda de tu página de **back-office**.
+
+> **Nota**: Para más detalles sobre la gestión de **organization**, consulta nuestra documentación en línea.
+
+---
+
+## 📋 Resumen del Módulo
+
+Ahora que has adquirido el conocimiento fundamental sobre la gestión de **web catalog**, que constituye la navegación de tu **storefront** y organiza tus colecciones de **products** en categorías estructuradas, puedes avanzar hacia herramientas más avanzadas que ayudan a trabajar con el contenido de tu sitio web.
+
+### Lo que has aprendido:
+
+✅ **Diferencias entre Master Catalog y Web Catalog**  
+✅ **Creación y configuración de Web Catalogs**  
+✅ **Estructura de Content Nodes y Content Tree**  
+✅ **Configuración de Landing Pages y System Pages**  
+✅ **Integración con Master Catalog Categories**  
+✅ **Creación de Product Collections con filtros avanzados**  
+✅ **Configuración de promociones y descuentos**  
+✅ **Gestión en aplicaciones Multi-Org**
+
+### Próximos pasos:
+
+En el siguiente módulo, exploraremos las **Landing Pages** y el **WYSIWYG Builder** para crear contenido dinámico y atractivo para tu **storefront**.
