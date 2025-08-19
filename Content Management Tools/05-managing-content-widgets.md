@@ -120,4 +120,3 @@ Todas las **landing pages** y **content blocks** donde se usan **content widgets
 
 ---
 
-¿Quieres que también traduzca el siguiente capítulo sobre Content Blocks con el mismo formato?
