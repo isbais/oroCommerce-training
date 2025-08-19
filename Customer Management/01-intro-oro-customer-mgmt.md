@@ -76,5 +76,70 @@ La principal diferencia entre un **contact** y un **customer user** es que un co
 
 ## Resumen
 
-Esta fue una pequeña visión del concepto de gestión de clientes que se puede implementar en la plataforma Oro. En las próximas secciones, profundizaremos en cada entidad que participa en el proceso de gestión de clientes, enfocándonos en sus especificidades y características distintivas. También consideraremos las capacidades de la plataforma Oro que ayudan a construir un servicio al cliente integral, permitiendo que los clientes seleccionados tengan acceso completo o parcial a tu sitio web o sus páginas y contenido específicos.  
+Esta fue una pequeña visión del concepto de gestión de clientes que se puede implementar en la plataforma Oro. En las próximas secciones, profundizaremos en cada entidad que participa en el proceso de gestión de clientes, enfocándonos en sus especificidades y características distintivas. También consideraremos las capacidades de la plataforma Oro que ayudan a construir un servicio al cliente integral, permitiendo que los clientes seleccionados tengan acceso completo o parcial a tu sitio web o sus páginas y contenido específicos. 
+
+
+
+# OroCommerce – Entidades principales
+
+| Concepto             | Descripción                                                                                                                         | Relación con otras entidades                                                                 |
+|----------------------|-------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
+| **Accounts**         | Organización/empresa con la que haces negocios. Puede tener múltiples contactos y clientes asociados.                               | Un **Account** puede tener muchos **Customers** y **Contacts** vinculados.                   |
+| **Contacts**         | Información de individuos (nombre, email, teléfono). Son registros de personas que pueden o no ser usuarios del storefront.          | Un **Contact** puede estar asociado a un **Account** y/o a un **Customer**.                  |
+| **Customers**        | Entidad que compra en el **storefront** (ej: una empresa cliente). Representa la relación comercial específica con ACME.             | Un **Customer** pertenece a un **Account** y puede tener muchos **Customer Users**.          |
+| **Customer Groups**  | Conjunto de **Customers** agrupados por reglas de negocio (ej: B2B, mayoristas, distribuidores).                                     | Un **Customer** puede estar en **un solo Customer Group** a la vez.                          |
+| **Customer Users**   | Personas con credenciales que compran en nombre de un **Customer** (ej: comprador de una empresa).                                   | Cada **Customer User** pertenece a un **Customer** (y por ende a su **Account**).            |
+| **Business Customers** | Son los **Customers B2B** (empresas que compran en volúmenes grandes o con condiciones especiales).                                | Son un subtipo de **Customers**, normalmente organizados en **Customer Groups** específicos. |
+
+
+Account (empresa / organización)
+│
+├── Contacts (personas de referencia asociadas al Account)
+│
+└── Customers (clientes en el storefront, ligados a un Account)
+     │
+     ├── Customer Users (usuarios que inician sesión en el storefront en nombre del Customer)
+     │     • Ejemplo: comprador, administrador de compras, gerente financiero.
+     │
+     └── Customer Group (categoría a la que pertenece este Customer)
+           • Ejemplo: B2B mayorista, B2C minorista, distribuidores.
+
+
+🔹 Nivel 1 – Account
+	•	Representa la empresa u organización real con la que haces negocios.
+	•	Es el “contenedor” principal.
+	•	Puede tener varios Customers (por ejemplo, diferentes divisiones de la empresa con acuerdos distintos).
+	•	Puede tener varios Contacts (personas relacionadas a nivel comercial, no necesariamente usuarios de storefront).
+
+🔹 Nivel 2 – Contacts
+	•	Son registros de individuos (nombre, email, teléfono).
+	•	Se asocian a un Account y opcionalmente a un Customer.
+	•	Se usan principalmente para CRM y gestión de relaciones.
+
+🔹 Nivel 3 – Customers
+	•	Son las entidades comerciales activas dentro del storefront.
+	•	Pertenecen a un Account.
+	•	Ejemplo: dentro del Account “Empresa XYZ”, puedes tener:
+	•	Customer 1 → División Industrial
+	•	Customer 2 → División Retail
+
+🔹 Nivel 4 – Customer Users
+	•	Son los usuarios con login al storefront que actúan en nombre del Customer.
+	•	Pueden tener distintos roles: comprador, aprobador, administrador.
+	•	Ejemplo: en el Customer “División Industrial” de XYZ, los Customer Users serían:
+	•	Juan Pérez → Comprador
+	•	María López → Jefa de Compras (aprueba órdenes)
+
+🔹 Nivel 5 – Customer Groups
+	•	Agrupan Customers con características comunes.
+	•	Permite definir reglas de precios, catálogos, visibilidad y promociones.
+	•	Ejemplo:
+	•	Grupo “Mayoristas B2B”
+	•	Grupo “Minoristas B2C”
+	•	Grupo “Clientes Premium”
+
+🔹 Nivel paralelo – Business Customers
+	•	Se refiere específicamente a los Customers B2B (empresas).
+	•	Suelen estar organizados dentro de un Customer Group especial (ej: “B2B Wholesale”).
+	•	Se diferencian de los B2C Customers (consumidores finales).
 
