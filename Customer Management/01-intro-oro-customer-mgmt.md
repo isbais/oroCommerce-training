@@ -92,12 +92,19 @@ Esta fue una pequeña visión del concepto de gestión de clientes que se puede 
 | **Business Customers** | Son los **Customers B2B** (empresas que compran en volúmenes grandes o con condiciones especiales).                                | Son un subtipo de **Customers**, normalmente organizados en **Customer Groups** específicos. |
 
 
-graph TD
-  A["Account (empresa / organización)"]
-  A --> B["Contacts (personas asociadas al Account)"]
-  A --> C["Customers (clientes en el storefront)"]
-  C --> D["Customer Users (usuarios que compran en nombre del Customer)"]
-  C --> E["Customer Group (categoría del Customer)"]
+---
+
+Account (empresa / organización)
+│
+├── Contacts (personas de referencia asociadas al Account)
+│
+└── Customers (clientes en el storefront, ligados a un Account)
+│
+├── Customer Users (usuarios que inician sesión en el storefront en nombre del Customer)
+│       • Ejemplo: comprador, administrador de compras, gerente financiero.
+│
+└── Customer Group (categoría a la que pertenece este Customer)
+        • Ejemplo: B2B mayorista, B2C minorista, distribuidores.
 
 
 🔹 Nivel 1 – Account
