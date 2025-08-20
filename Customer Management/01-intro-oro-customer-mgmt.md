@@ -92,13 +92,12 @@ Esta fue una pequeña visión del concepto de gestión de clientes que se puede 
 | **Business Customers** | Son los **Customers B2B** (empresas que compran en volúmenes grandes o con condiciones especiales).                                | Son un subtipo de **Customers**, normalmente organizados en **Customer Groups** específicos. |
 
 
-```mermaid
 graph TD
-  A[Account (empresa / organización)]
-  A --> B[Contacts (personas asociadas al Account)]
-  A --> C[Customers (clientes en el storefront)]
-  C --> D[Customer Users (usuarios que compran en nombre del Customer)]
-  C --> E[Customer Group (categoría del Customer)]
+  A["Account (empresa / organización)"]
+  A --> B["Contacts (personas asociadas al Account)"]
+  A --> C["Customers (clientes en el storefront)"]
+  C --> D["Customer Users (usuarios que compran en nombre del Customer)"]
+  C --> E["Customer Group (categoría del Customer)"]
 
 
 🔹 Nivel 1 – Account
