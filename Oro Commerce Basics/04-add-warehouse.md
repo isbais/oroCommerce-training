@@ -16,11 +16,11 @@ OroCommerce soporta operaciones esenciales relacionadas con la gestión y seguim
 
 Por defecto, el inventario del producto está configurado para ser gestionado a través de OroCommerce, pero puedes deshabilitar esta opción para conectar tu sistema externo de elección.
 
-Antes de continuar leyendo, también puedes revisar un video en la biblioteca de medios de Oro sobre cómo trabajar con inventory y warehouses en tu aplicación.
+Antes de continuar leyendo, también puedes revisar un video en la biblioteca de medios de Oro sobre cómo **[trabajar con inventory y warehouses](https://doc.oroinc.com/user/back-office/inventory/)** en tu aplicación.
 
 ## Configuración del Sistema
 
-En OroCommerce, las configuraciones relacionadas con inventory se encuentran bajo **System** en el menú principal en la sección relevante **Commerce > Inventory**. Allí, puedes cambiar la configuración predeterminada del sistema y personalizarla específicamente para las necesidades de tu negocio. En particular, puedes gestionar la configuración para **inventory statuses** permitidos, warehouses, **product options** y limitaciones de cantidad de pedido. Si quieres profundizar en inventory y warehouses en OroCommerce, revisa una guía completa de inventory en nuestra biblioteca de documentación.
+En OroCommerce, las configuraciones relacionadas con inventory se encuentran bajo **System** en el menú principal en la sección relevante **Commerce > Inventory**. Allí, puedes cambiar la configuración predeterminada del sistema y personalizarla específicamente para las necesidades de tu negocio. En particular, puedes gestionar la configuración para **inventory statuses** permitidos, warehouses, **product options** y limitaciones de cantidad de pedido. Si quieres profundizar en inventory y warehouses en OroCommerce, revisa una **[guía completa de inventory](https://doc.oroinc.com/user/back-office/inventory/)** en nuestra biblioteca de documentación.
 
 Mientras tanto, volvamos al ejemplo que introdujimos anteriormente, el negocio estadounidense que vende artículos de papelería y oficina a varios negocios. Asumiendo que hay un warehouse físico que almacena todos los artículos para la venta, necesitamos agregar los detalles de este warehouse en la consola de gestión de OroCommerce.
 
@@ -38,7 +38,7 @@ Para crear un nuevo warehouse en tu aplicación Oro:
 
 ![Crear Warehouse](https://hive.oroinc.com/wp-content/uploads/sites/21/2018/06/create_warehouse-1536x707.png)
 
-Una vez que hayas creado el warehouse, necesitas habilitarlo en la configuración del sistema. Si tienes más de un warehouse, es posible que quieras priorizarlos para asegurar que OroCommerce use una estrategia para las actualizaciones de inventory que ocurren durante las operaciones de la tienda.
+Una vez que hayas **[creado el warehouse](https://doc.oroinc.com/user/back-office/inventory/create/)**, necesitas habilitarlo en la configuración del sistema. Si tienes más de un warehouse, es posible que quieras priorizarlos para asegurar que OroCommerce use una estrategia para las actualizaciones de inventory que ocurren durante las operaciones de la tienda.
 
 ## Habilitar y Priorizar Warehouses
 
