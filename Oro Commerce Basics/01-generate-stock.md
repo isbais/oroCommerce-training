@@ -1,51 +1,59 @@
-Your Steps Explained
+# Generación de Stock en OroCommerce
 
-When you open OroCommerce for the first time, you might initially be overwhelmed by the number of menu items and configuration options that it offers. Don't panic, players, we are going to explain it all! We'll take you step by step through all basic setup and configuration to help you kick-start your sales quickly.
+## Tabla de Contenidos
+- [Tus Pasos Explicados](#tus-pasos-explicados)
+- [Organizar el Master Catalog](#organizar-el-master-catalog)
+- [Configuración de Categorías](#configuración-de-categorías)
 
-You may want to start by uploading all your products into the Oro master catalog. The master catalog organizes all existing products in your store under corresponding categories. For instance, your master catalog might have such categories as insulation, bricks, roofing, plumbing, electricals, and tiles. Each such category combines products of a similar type into groups and helps enforce the unified selling strategy by configuring a special set of product options, visibility, and SEO settings that best fit the resulting product family. By default, there is only one master catalog in OroCommerce, but you can personalize it the way you need, by adding or deleting categories, creating groups of products and linking them to the corresponding web catalog.
+## Tus Pasos Explicados
 
-Think of the master catalog as a storage room, and a web catalog as your shop window. You keep all your products in the storage room but display only some of them in a certain way in the shop window. In the master catalog, you organize, categorize, and keep all your products, but your web catalog helps present these products in a personalized way that fits your target audience. The perk of OroCommerce is that it provides an almost infinite number of possibilities for personalized web catalogs, as the application comes out-of-the-box complete with versatile catalog management capabilities.
+Cuando abres OroCommerce por primera vez, podrías sentirte inicialmente abrumado por la cantidad de elementos del menú y opciones de configuración que ofrece. ¡No te asustes, jugadores, vamos a explicarlo todo! Te llevaremos paso a paso a través de toda la configuración básica para ayudarte a iniciar tus ventas rápidamente.
 
-With the products imported and master and web catalogs created, your next step would be to upload your inventory to the warehouse. Inventory in OroCommerce helps you track the availability of your products in one or more warehouses, display it for the buyer and salespeople, and automatically adjust it after every operation in OroCommerce. You can manage product inventory by both 3rd party solutions and via OroCommerce, depending on how you prefer to control your stock.
+Puedes comenzar subiendo todos tus productos al **master catalog** de Oro. El master catalog organiza todos los productos existentes en tu tienda bajo categorías correspondientes. Por ejemplo, tu master catalog podría tener categorías como aislamiento, ladrillos, techado, plomería, eléctricos y azulejos. Cada categoría combina productos de un tipo similar en grupos y ayuda a hacer cumplir la estrategia de ventas unificada configurando un conjunto especial de opciones de producto, visibilidad y configuraciones SEO que mejor se adapten a la familia de productos resultante. Por defecto, solo hay un master catalog en OroCommerce, pero puedes personalizarlo como necesites, agregando o eliminando categorías, creando grupos de productos y vinculándolos al **web catalog** correspondiente.
 
-When that's done, you proceed to add prices to your products. In OroCommerce, you can easily set up and customize multiple price lists for your customers, customer groups, and websites, build price lists with any amount of price points, price tiers, or currencies. Creating a price list couldn't be easier; just upload your existing price list into OroCommerce. Besides, you can even schedule temporary or permanent price changes.
+Piensa en el master catalog como una bodega y un web catalog como tu vitrina de tienda. Mantienes todos tus productos en la bodega pero muestras solo algunos de ellos de cierta manera en la vitrina. En el master catalog, organizas, categorizas y mantienes todos tus productos, pero tu web catalog ayuda a presentar estos productos de una manera personalizada que se adapta a tu audiencia objetivo. La ventaja de OroCommerce es que proporciona un número casi infinito de posibilidades para web catalogs personalizados, ya que la aplicación viene completa con capacidades versátiles de gestión de catálogos.
 
-To make sure that your customer can negotiate a quote, pay for the purchased items, and have them delivered to their address, add payment and shipping solutions next. For payment, you need to create certain payment terms and bind payment methods to particular customers. You also add rules to make payment case-specific. By integrating with the desired shipping providers and setting shipping rules, you can bind buyers to shipping methods, based on location or other attributes at checkout.
+Con los productos importados y los master y web catalogs creados, tu siguiente paso sería subir tu inventario al almacén. El inventario en OroCommerce te ayuda a rastrear la disponibilidad de tus productos en uno o más almacenes, mostrarlo para el comprador y vendedores, y ajustarlo automáticamente después de cada operación en OroCommerce. Puedes gestionar el inventario de productos tanto por soluciones de terceros como a través de OroCommerce, dependiendo de cómo prefieras controlar tu stock.
 
-Although the course is going to concentrate on the key steps leading up to the first sale, along the way, we will be introducing additional concepts and providing links to Oro media and documentation libraries to make sure you are familiar with the full picture of capabilities and benefits of the OroCommerce product.
+Cuando eso esté hecho, procedes a agregar precios a tus productos. En OroCommerce, puedes configurar y personalizar fácilmente múltiples **price lists** para tus clientes, **customer groups** y sitios web, construir price lists con cualquier cantidad de puntos de precio, niveles de precio o monedas. Crear una price list no podría ser más fácil; solo sube tu price list existente a OroCommerce. Además, incluso puedes programar cambios de precio temporales o permanentes.
 
+Para asegurarte de que tu cliente pueda negociar una cotización, pagar por los artículos comprados y tenerlos entregados en su dirección, agrega soluciones de pago y envío a continuación. Para el pago, necesitas crear ciertos **payment terms** y vincular **payment methods** a clientes particulares. También agregas reglas para hacer el pago específico del caso. Al integrar con los proveedores de envío deseados y configurar reglas de envío, puedes vincular compradores a **shipping methods**, basándose en ubicación u otros atributos en el checkout.
 
-Organize the Master Catalog
+Aunque el curso se concentrará en los pasos clave que llevan a la primera venta, en el camino, introduciremos conceptos adicionales y proporcionaremos enlaces a las bibliotecas de medios y documentación de Oro para asegurarnos de que estés familiarizado con el panorama completo de capacidades y beneficios del producto OroCommerce.
 
-The first step of your OroCommerce journey is setting up your own master catalog. Before populating it with products, we suggest that you create a couple of categories to add the products to. This helps to structure and organize products that you are selling.
+## Organizar el Master Catalog
 
-For our example of an office stationery supplies website (OroAcme), we are going to create four categories. Later, we will upload products to the categories that correspond to their type. The categories are:
+El primer paso de tu viaje en OroCommerce es configurar tu propio master catalog. Antes de poblarlo con productos, sugerimos que crees un par de categorías para agregar los productos. Esto ayuda a estructurar y organizar los productos que estás vendiendo.
 
-Paper and Mailing
-Writing Supplies
-Desktop Accessories
-Presentation Equipment
-To reach the default master catalog, navigate to Products > Master Catalog in the main menu.
+Para nuestro ejemplo de un sitio web de suministros de papelería de oficina (OroAcme), vamos a crear cuatro categorías. Más tarde, subiremos productos a las categorías que correspondan a su tipo. Las categorías son:
 
-The All Products category is the default category available out-of-the-box with your application.
+- **Paper and Mailing**
+- **Writing Supplies**
+- **Desktop Accessories**
+- **Presentation Equipment**
 
-https://hive.oroinc.com/wp-content/uploads/sites/21/2018/06/clean_mc-720x177-1.png
+Para llegar al master catalog predeterminado, navega a **Products > Master Catalog** en el menú principal.
 
-To add more categories to the catalog, click Create Category on the top right. For the basic setup, it is enough to provide the following key information:
+La categoría **All Products** es la categoría predeterminada disponible con tu aplicación.
 
-Title — A meaningful name for the category. Click the Translations icon to provide spelling for different languages. Click the Default Language icon to return to the single-language view.
-Description — A short and/or long description of the category you are creating.
-URL Slug — A web address generated automatically once the title of the category is defined. It is used to build a human-readable URL for the product page in the storefront.
-As at this point, we have no products uploaded to the application. The Products section is empty.
+![Master Catalog Limpio](https://hive.oroinc.com/wp-content/uploads/sites/21/2018/06/clean_mc-720x177-1.png)
 
-In the Default Product Options section, you can adjust the default settings for the products in your category. You can read more about product options in the documentation library's relevant master catalog (https://doc.oroinc.com/user/back-office/products/master-catalog/) topic.
+## Configuración de Categorías
 
-In the panel to the left, we have created four categories.
+Para agregar más categorías al catálogo, haz clic en **Create Category** en la parte superior derecha. Para la configuración básica, es suficiente proporcionar la siguiente información clave:
 
+- **Title** — Un nombre significativo para la categoría. Haz clic en el ícono de Translations para proporcionar ortografía en diferentes idiomas. Haz clic en el ícono de Default Language para volver a la vista de un solo idioma.
+- **Description** — Una descripción corta y/o larga de la categoría que estás creando.
+- **URL Slug** — Una dirección web generada automáticamente una vez que se define el título de la categoría. Se usa para construir una URL legible por humanos para la página del producto en el storefront.
 
-https://hive.oroinc.com/wp-content/uploads/sites/21/2018/06/create-category-mc-1536x634.png
- 
+En este punto, no tenemos productos subidos a la aplicación. La sección Products está vacía.
 
-For more complex setups, you can also add subcategories to the categories. This way, for instance,  the Paper and Mailing category might further be split into Paper, Mailroom, or Envelopes subcategories, if necessary.
+En la sección **Default Product Options**, puedes ajustar la configuración predeterminada para los productos en tu categoría. Puedes leer más sobre opciones de producto en el tema relevante del master catalog en la biblioteca de documentación.
 
-Now that we have categories to organize the products into, we can start adding stock information.
+En el panel a la izquierda, hemos creado cuatro categorías.
+
+![Crear Categoría en Master Catalog](https://hive.oroinc.com/wp-content/uploads/sites/21/2018/06/create-category-mc-1536x634.png)
+
+Para configuraciones más complejas, también puedes agregar subcategorías a las categorías. De esta manera, por ejemplo, la categoría **Paper and Mailing** podría dividirse aún más en subcategorías de Paper, Mailroom o Envelopes, si es necesario.
+
+Ahora que tenemos categorías para organizar los productos, podemos comenzar a agregar información de stock.

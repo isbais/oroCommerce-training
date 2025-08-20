@@ -1,41 +1,55 @@
-Import Products into the Master Catalog
+# Importar Productos al Master Catalog
 
-You can add products to your OroCommerce master catalog in a couple of clicks. As you probably already have a .csv list of available products saved, you can adjust it to the OroCommerce's template and upload it to your master catalog.
+## Tabla de Contenidos
+- [Introducción](#introducción)
+- [Proceso de Importación](#proceso-de-importación)
+- [Información del Producto](#información-del-producto)
+- [Validación y Resultados](#validación-y-resultados)
+- [Resultados de la Importación](#resultados-de-la-importación)
 
-To download the template and bulk upload your products:
+## Introducción
 
-Navigate to Products > Products in the main menu. The product list opens.
-Click Import File on the top right.
-In the Import dialog, click Choose File, select the required .csv file, and click Import File.
-Click Export Template to download a sample .csv file with the necessary headers.
-Create your bulk information in the .csv format based on the downloaded file. Once your file is ready, click Choose File, select the prepared .csv file, and click Import File.
+Puedes agregar productos a tu master catalog de OroCommerce en un par de clics. Como probablemente ya tienes una lista .csv de productos disponibles guardada, puedes ajustarla a la plantilla de OroCommerce y subirla a tu master catalog.
 
-https://hive.oroinc.com/wp-content/uploads/sites/21/2018/06/import_products-720x343-1.png
+## Proceso de Importación
 
-For our example, we have filled in the template with several simple products and provided the following information for them:
+Para descargar la plantilla y subir tus productos en masa:
 
-SKU (e.g., WRT1)
-Attribute.Family.code  (e.g. default_family)
-Status  (e.g., enabled)
-Type  (e.g., simple)
-Inventory_status.id  (e.g. in_stock)
-Category.default.title (e.g., Presentation Equipment)
-Names.Default.Value (e.g., Flipchart Easel 110)
-PrimaryUnitPrecision.precision (e.g., 1)
- 
+1. **Navega a Products > Products** en el menú principal. Se abre la lista de productos.
+2. **Haz clic en Import File** en la parte superior derecha.
+3. **En el diálogo de Import**, haz clic en Choose File, selecciona el archivo .csv requerido y haz clic en Import File.
+4. **Haz clic en Export Template** para descargar un archivo .csv de muestra con los encabezados necesarios.
+5. **Crea tu información en masa** en formato .csv basándote en el archivo descargado. Una vez que tu archivo esté listo, haz clic en Choose File, selecciona el archivo .csv preparado y haz clic en Import File.
 
-https://hive.oroinc.com/wp-content/uploads/sites/21/2018/06/ImportProducts-1.png
+![Importar Productos](https://hive.oroinc.com/wp-content/uploads/sites/21/2018/06/import_products-720x343-1.png)
 
- 
+## Información del Producto
 
-Note: You can also validate your file before uploading it to check for errors. Click Validate to check your import results. If any Records have errors, fix them in the .csv file before starting the import.
+Para nuestro ejemplo, hemos llenado la plantilla con varios simple products y proporcionado la siguiente información para ellos:
 
-Interactive status messages inform about the import progress, and once the import is complete, the changes are reflected in the list on refresh. Additionally, an email message with the import status is delivered to your mailbox.
+- **SKU** (ej., WRT1)
+- **Attribute.Family.code** (ej., default_family)
+- **Status** (ej., enabled)
+- **Type** (ej., simple)
+- **Inventory_status.id** (ej., in_stock)
+- **Category.default.title** (ej., Presentation Equipment)
+- **Names.Default.Value** (ej., Flipchart Easel 110)
+- **PrimaryUnitPrecision.precision** (ej., 1)
 
-Once the products are imported, they should become available on the product list in your application and inside their respective categories.
+![Plantilla de Importación de Productos](https://hive.oroinc.com/wp-content/uploads/sites/21/2018/06/ImportProducts-1.png)
 
+## Validación y Resultados
 
-https://hive.oroinc.com/wp-content/uploads/sites/21/2018/06/imported-products-1536x549.png
-https://hive.oroinc.com/wp-content/uploads/sites/21/2018/06/product-in-category-1536x581.png
+**Nota:** También puedes validar tu archivo antes de subirlo para verificar si hay errores. Haz clic en Validate para verificar tus resultados de importación. Si hay Records con errores, corrígelos en el archivo .csv antes de comenzar la importación.
 
-Keep in mind that unless you create a web catalog to set the structure and design of your website, the structure of the master catalog will be used in the storefront. As you can see in the screenshot below, the four categories we have just added to the master catalog are now displayed in the storefront because we have no web catalog created to present the products yet.
+Los mensajes de estado interactivos informan sobre el progreso de la importación, y una vez que la importación esté completa, los cambios se reflejan en la lista después del refresh. Además, se entrega un mensaje de correo electrónico con el estado de la importación a tu buzón.
+
+Una vez que los productos se importan, deberían estar disponibles en la lista de productos en tu aplicación y dentro de sus categorías respectivas.
+
+![Productos Importados](https://hive.oroinc.com/wp-content/uploads/sites/21/2018/06/imported-products-1536x549.png)
+
+![Producto en Categoría](https://hive.oroinc.com/wp-content/uploads/sites/21/2018/06/product-in-category-1536x581.png)
+
+## Resultados de la Importación
+
+Ten en cuenta que a menos que crees un web catalog para establecer la estructura y el diseño de tu sitio web, la estructura del master catalog se usará en el storefront. Como puedes ver en la captura de pantalla a continuación, las cuatro categorías que acabamos de agregar al master catalog ahora se muestran en el storefront porque no tenemos un web catalog creado para presentar los productos aún.

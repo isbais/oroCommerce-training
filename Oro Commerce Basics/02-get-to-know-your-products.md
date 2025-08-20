@@ -1,15 +1,35 @@
-Get to Know Your Products
+# Conoce tus Productos
 
-You can create three types of products in OroCommerce – simple, configurable, and a product kit. The product type selected at the first step of product creation determines the way product information is later used and managed in the application.
+## Tabla de Contenidos
+- [Introducción](#introducción)
+- [Tipos de Productos](#tipos-de-productos)
+- [Product Families](#product-families)
+- [Recursos Adicionales](#recursos-adicionales)
 
-A simple product is an ordinary product. It has a unique SKU and the set of product details that may vary based on the product family that a product belongs to. You can manage the inventory information and the price for a simple product. An example of a simple product is a pack of copier paper that has no color or size variations.
+## Introducción
 
-A configurable product groups several simple products (configurable product variants) whose information mostly overlaps, except for several product attributes that differentiate these simple products. As the configurable product and all of its variants share the same set of attributes, they should share the product family.
+Puedes crear tres tipos de productos en OroCommerce: **simple**, **configurable** y **product kit**. El tipo de producto seleccionado en el primer paso de la creación del producto determina la forma en que la información del producto se usa y gestiona posteriormente en la aplicación.
 
-An example of a configurable product may be a pack of copier paper available in several colors and sizes. This pack may contain 100, 300, or 500 sheets and come in white, blue, green, or red colors. In the storefront, such a product with all its size and color variations is displayed as a matrix ordering form (https://doc.oroinc.com/user/storefront/orders/matrix-form/). You can read more about matrix forms in the corresponding section of the storefront guide in the Oro documentation library.
+## Tipos de Productos
 
-A product kit is an assortment of products, each with its individual SKUs. Each product in this assortment bundle can be mandatory or optional for the buyers to buy in order to proceed through the checkout. An example of a product kit would be a lamp with a selection of optional accessories for it, such as spare bulbs of different wattage.
+### Simple Product
 
-We have mentioned previously that product details vary based on the product family. In a nutshell, a product family is a set of product attributes that store complete information about products of similar type. So, for instance, a stapler and a laser printer can share some generic attributes, such as a name or a brand, and differ in the remaining attribute set. For a stapler, these attributes may be sheet capacity and strip type, while for a printer, these may be speed, resolution, or the type of the USB port. These attributes can, of course, be created depending on your needs. A new product family can also be added. By default, however, OroCommerce comes with one default product family that stores all system attributes. These system attributes are mandatory for any product family as they contain essential product details.
+Un **simple product** es un producto ordinario. Tiene un **SKU** único y el conjunto de detalles del producto que pueden variar según la **product family** a la que pertenece un producto. Puedes gestionar la información del inventario y el precio para un simple product. Un ejemplo de un simple product es un paquete de papel para copiadora que no tiene variaciones de color o tamaño.
 
-Our documentation library contains more information on product families (https://doc.oroinc.com/user/back-office/products/product-families/) and attributes (https://doc.oroinc.com/user/back-office/products/product-attributes/). The Oro media library also has a video on creating simple products in your application (https://doc.oroinc.com/user/back-office/products/products/create-simple/).
+### Configurable Product
+
+Un **configurable product** agrupa varios simple products (variantes del configurable product) cuya información se superpone en su mayoría, excepto por varios atributos del producto que diferencian estos simple products. Como el configurable product y todas sus variantes comparten el mismo conjunto de atributos, deben compartir la **product family**.
+
+Un ejemplo de un configurable product puede ser un paquete de papel para copiadora disponible en varios colores y tamaños. Este paquete puede contener 100, 300 o 500 hojas y venir en colores blanco, azul, verde o rojo. En el storefront, tal producto con todas sus variaciones de tamaño y color se muestra como un **matrix ordering form**. Puedes leer más sobre matrix forms en la sección correspondiente de la guía del storefront en la biblioteca de documentación de Oro.
+
+### Product Kit
+
+Un **product kit** es un surtido de productos, cada uno con sus **SKUs** individuales. Cada producto en este paquete de surtido puede ser obligatorio u opcional para que los compradores compren para proceder a través del checkout. Un ejemplo de un product kit sería una lámpara con una selección de accesorios opcionales para ella, como bombillas de repuesto de diferentes vatios.
+
+## Product Families
+
+Hemos mencionado anteriormente que los detalles del producto varían según la **product family**. En resumen, una product family es un conjunto de **product attributes** que almacenan información completa sobre productos de tipo similar. Entonces, por ejemplo, una grapadora y una impresora láser pueden compartir algunos atributos genéricos, como un nombre o una marca, y diferir en el conjunto de atributos restante. Para una grapadora, estos atributos pueden ser capacidad de hojas y tipo de tira, mientras que para una impresora, estos pueden ser velocidad, resolución o el tipo del puerto USB. Estos atributos pueden, por supuesto, crearse dependiendo de tus necesidades. También se puede agregar una nueva product family. Sin embargo, por defecto, OroCommerce viene con una product family predeterminada que almacena todos los **system attributes**. Estos system attributes son obligatorios para cualquier product family ya que contienen detalles esenciales del producto.
+
+## Recursos Adicionales
+
+Nuestra biblioteca de documentación contiene más información sobre **product families** y **attributes**. La biblioteca de medios de Oro también tiene un video sobre la creación de simple products en tu aplicación.
