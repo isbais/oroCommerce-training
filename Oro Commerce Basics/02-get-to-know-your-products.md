@@ -20,7 +20,7 @@ Un **simple product** es un producto ordinario. Tiene un **SKU** único y el con
 
 Un **configurable product** agrupa varios simple products (variantes del configurable product) cuya información se superpone en su mayoría, excepto por varios atributos del producto que diferencian estos simple products. Como el configurable product y todas sus variantes comparten el mismo conjunto de atributos, deben compartir la **product family**.
 
-Un ejemplo de un configurable product puede ser un paquete de papel para copiadora disponible en varios colores y tamaños. Este paquete puede contener 100, 300 o 500 hojas y venir en colores blanco, azul, verde o rojo. En el storefront, tal producto con todas sus variaciones de tamaño y color se muestra como un **matrix ordering form**. Puedes leer más sobre matrix forms en la sección correspondiente de la guía del storefront en la biblioteca de documentación de Oro.
+Un ejemplo de un configurable product puede ser un paquete de papel para copiadora disponible en varios colores y tamaños. Este paquete puede contener 100, 300 o 500 hojas y venir en colores blanco, azul, verde o rojo. En el storefront, tal producto con todas sus variaciones de tamaño y color se muestra como un **[matrix ordering form](https://doc.oroinc.com/user/storefront/orders/matrix-form/)**. Puedes leer más sobre matrix forms en la sección correspondiente de la guía del storefront en la biblioteca de documentación de Oro.
 
 ### Product Kit
 
@@ -32,4 +32,4 @@ Hemos mencionado anteriormente que los detalles del producto varían según la *
 
 ## Recursos Adicionales
 
-Nuestra biblioteca de documentación contiene más información sobre **product families** y **attributes**. La biblioteca de medios de Oro también tiene un video sobre la creación de simple products en tu aplicación.
+Nuestra biblioteca de documentación contiene más información sobre **[product families](https://doc.oroinc.com/user/back-office/products/product-families/)** y **[attributes](https://doc.oroinc.com/user/back-office/products/product-attributes/)**. La biblioteca de medios de Oro también tiene un video sobre la creación de simple products en tu aplicación **[aquí](https://doc.oroinc.com/user/back-office/products/products/create-simple/)**.
