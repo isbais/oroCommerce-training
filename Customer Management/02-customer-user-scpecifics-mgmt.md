@@ -200,7 +200,9 @@ Una característica adicional útil aquí es la posibilidad de iniciar sesión e
 
 La característica está disponible para los usuarios del back-office con la capacidad de rol Login As Customer User.
 
-**Nota:** Para más detalles sobre los roles de usuario del back-office, consulta nuestra documentación en línea.
+**Nota:** Para más detalles sobre los roles de usuario del back-office, consulta nuestra documentación en línea. https://doc.oroinc.com/user/back-office/system/user-management/roles/admin-capabilities/#admin-capabilities
+
+![Login as Customer User](https://hive.oroinc.com/wp-content/uploads/sites/21/2021/02/login_as_customer_user-1.png)
 
 Para impersonar a Felicity, haz clic en **Login as a User**; esto abre el storefront en una nueva pestaña. Después de completar cualquier acción, cierra sesión del modo de impersonación.
 
