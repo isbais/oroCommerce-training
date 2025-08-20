@@ -1,0 +1,15 @@
+Get to Know Your Products
+
+You can create three types of products in OroCommerce – simple, configurable, and a product kit. The product type selected at the first step of product creation determines the way product information is later used and managed in the application.
+
+A simple product is an ordinary product. It has a unique SKU and the set of product details that may vary based on the product family that a product belongs to. You can manage the inventory information and the price for a simple product. An example of a simple product is a pack of copier paper that has no color or size variations.
+
+A configurable product groups several simple products (configurable product variants) whose information mostly overlaps, except for several product attributes that differentiate these simple products. As the configurable product and all of its variants share the same set of attributes, they should share the product family.
+
+An example of a configurable product may be a pack of copier paper available in several colors and sizes. This pack may contain 100, 300, or 500 sheets and come in white, blue, green, or red colors. In the storefront, such a product with all its size and color variations is displayed as a matrix ordering form (https://doc.oroinc.com/user/storefront/orders/matrix-form/). You can read more about matrix forms in the corresponding section of the storefront guide in the Oro documentation library.
+
+A product kit is an assortment of products, each with its individual SKUs. Each product in this assortment bundle can be mandatory or optional for the buyers to buy in order to proceed through the checkout. An example of a product kit would be a lamp with a selection of optional accessories for it, such as spare bulbs of different wattage.
+
+We have mentioned previously that product details vary based on the product family. In a nutshell, a product family is a set of product attributes that store complete information about products of similar type. So, for instance, a stapler and a laser printer can share some generic attributes, such as a name or a brand, and differ in the remaining attribute set. For a stapler, these attributes may be sheet capacity and strip type, while for a printer, these may be speed, resolution, or the type of the USB port. These attributes can, of course, be created depending on your needs. A new product family can also be added. By default, however, OroCommerce comes with one default product family that stores all system attributes. These system attributes are mandatory for any product family as they contain essential product details.
+
+Our documentation library contains more information on product families (https://doc.oroinc.com/user/back-office/products/product-families/) and attributes (https://doc.oroinc.com/user/back-office/products/product-attributes/). The Oro media library also has a video on creating simple products in your application (https://doc.oroinc.com/user/back-office/products/products/create-simple/).
